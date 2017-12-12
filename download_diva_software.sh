@@ -11,4 +11,8 @@ git clone https://github.com/Kitware/maptk
 git clone https://github.com/Kitware/VisCL
 git clone https://github.com/Kitware/vibrant
 git clone https://github.com/Kitware/kwant
-git clone https://github.com/Kitware/kwiver
+mkdir kwiver
+cd kwiver
+git clone https://github.com/Kitware/kwiver src
+mkdir -p build/release
+cd build/release
