@@ -12,3 +12,4 @@ yes | add-apt-repository ppa:saiarcot895/myppa
 apt-get update
 apt-get -y install apt-fast
 yes | apt-get install python2.7-dev
+yes | apt-get install python-six
