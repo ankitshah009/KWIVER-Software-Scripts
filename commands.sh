@@ -15,4 +15,8 @@ apt-get -y install apt-fast
 yes | apt-get install python2.7-dev
 yes | apt-get install python-six
 yes | apt-get install python-numpy
-curl -O https://repo.continuum.io/archive/Anaconda2-5.0.1-Linux-x86_64.sh
+#curl -O https://repo.continuum.io/archive/Anaconda2-5.0.1-Linux-x86_64.sh
+#bash Anaconda2-5.0.1-Linux-x86_64.sh
+#source ~/.bashrc
+yes | apt install python-pip
+pip install --upgrade pip
