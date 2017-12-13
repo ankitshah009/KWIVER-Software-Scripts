@@ -1,5 +1,6 @@
 #!/bin/bash
 apt-get update
+yes | apt install wget
 yes | apt install python
 yes | apt install vim
 yes | apt install git
@@ -13,3 +14,5 @@ apt-get update
 apt-get -y install apt-fast
 yes | apt-get install python2.7-dev
 yes | apt-get install python-six
+yes | apt-get install python-numpy
+curl -O https://repo.continuum.io/archive/Anaconda2-5.0.1-Linux-x86_64.sh
