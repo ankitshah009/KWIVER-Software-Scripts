@@ -6,6 +6,9 @@ tar -xvzf fletch.tgz
 mkdir compressed
 mv fletch.tgz compressed
 git clone https://github.com/Kitware/SMQTK
+cd SMQTK
+pip install -r requirements.txt
+cd ..
 git clone https://github.com/Kitware/sprokit
 git clone https://github.com/Kitware/maptk
 git clone https://github.com/Kitware/VisCL
