@@ -20,3 +20,10 @@ yes | apt-get install python-numpy
 #source ~/.bashrc
 yes | apt install python-pip
 pip install --upgrade pip
+yes | apt install zip
+# Needed for SMQTK
+yes | apt-get install python-tk
+yes | apt-get install cmake-curses-gui
+pip install docutils
+#Needed for Doxygen
+yes | apt-get install doxygen
