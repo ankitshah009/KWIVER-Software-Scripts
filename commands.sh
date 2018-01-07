@@ -27,3 +27,10 @@ yes | apt-get install cmake-curses-gui
 pip install docutils
 #Needed for Doxygen
 yes | apt-get install doxygen
+#needed for display
+yes | apt-get install libxtst-dev
+# Needed to have add-apt-repository command
+unset PYTHONPATH
+yes | apt-get install software-properties-common python-software-properties
+#source bashrc file back again
+sbashrc
