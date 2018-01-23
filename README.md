@@ -7,8 +7,11 @@ Assuming that no software is installed in this docker - here are the list of ste
 Run the following commands to get started. 
 
 docker run -it --name <your favourite string>  -v <ANY specific mount path you desire> -d ubuntu
+
 docker start <container id>
+
 docker attach <container id>
+
 apt update
 
 Now you have apt updated within the docker image
