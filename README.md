@@ -14,7 +14,10 @@ apt update
 Now you have apt updated within the docker image
 
 Run the following - 
+
 yes | apt install git
+
 yes | apt install vim
+
 git clone https://github.com/ankitshah009/KWIVER-Software-Scripts
 
