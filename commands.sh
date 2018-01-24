@@ -5,10 +5,10 @@ yes | apt install python
 yes | apt install vim
 yes | apt install git
 yes | apt install cmake
-git clone https://github.com/ankitshah009/KWIVER-Software-Scripts
-bash install fletch_dependencies.sh
-bash download_diva_software.sh
-bash install_fletch.sh
+#git clone https://github.com/ankitshah009/KWIVER-Software-Scripts
+#bash install fletch_dependencies.sh
+#bash download_diva_software.sh
+#bash install_fletch.sh
 yes | add-apt-repository ppa:saiarcot895/myppa
 apt-get update
 apt-get -y install apt-fast
@@ -30,7 +30,8 @@ yes | apt-get install doxygen
 #needed for display
 yes | apt-get install libxtst-dev
 # Needed to have add-apt-repository command
-unset PYTHONPATH
+#unset PYTHONPATH
 yes | apt-get install software-properties-common python-software-properties
+yes | apt-get install cmake-qt-gui
 #source bashrc file back again
-sbashrc
+#sbashrc
