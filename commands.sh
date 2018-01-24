@@ -54,3 +54,29 @@ cd /usr/src/gtest
 make CmakeLists.txt
 make
 cp *.a /usr/lib
+
+
+####
+# open cv - libgphoto2 dependencies
+####
+
+yes | apt-get install libltdl-dev libusb-dev libusb-1.0 libexif-dev libpopt-dev
+yes | apt-get install gphoto2
+####
+# open cv - libv4l-dev and libv4l-0 dependency
+###
+yes | apt-get install libv4l-dev libv4l-0
+
+########
+# OPen cv - python not found error
+######
+yes | apt install python-dev python-pip python-tk python-lxml python-six
+
+
+
+########
+#Protobuf installation
+########
+yes | add-apt-repository ppa:maarten-fonville/protobuf
+yes | apt-get update
+ yes | apt-get install libprotobuf-dev libprotobuf9v5 libprotobuf-c-dev python-protobuf protobuf-compiler
