@@ -82,6 +82,6 @@ yes | apt-get update
  yes | apt-get install libprotobuf-dev libprotobuf9v5 libprotobuf-c-dev python-protobuf protobuf-compiler
 
 ### 
-# Open cv - openblas installation
+# Open cv - openblas installation and atlas
 ###
-yes | apt-get install libopenblas-dev
+yes | apt-get install libopenblas-dev liblapack-dev libatlas-base-dev
