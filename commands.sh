@@ -35,3 +35,5 @@ yes | apt-get install software-properties-common python-software-properties
 yes | apt-get install cmake-qt-gui
 #source bashrc file back again
 #sbashrc
+# FFMPEG installtion is not fonud if pkg-config is not installed
+yes | apt-get install pkg-config
