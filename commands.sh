@@ -80,3 +80,8 @@ yes | apt install python-dev python-pip python-tk python-lxml python-six
 yes | add-apt-repository ppa:maarten-fonville/protobuf
 yes | apt-get update
  yes | apt-get install libprotobuf-dev libprotobuf9v5 libprotobuf-c-dev python-protobuf protobuf-compiler
+
+### 
+# Open cv - openblas installation
+###
+yes | apt-get install libopenblas-dev
