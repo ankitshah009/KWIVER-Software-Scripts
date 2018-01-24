@@ -35,5 +35,9 @@ yes | apt-get install software-properties-common python-software-properties
 yes | apt-get install cmake-qt-gui
 #source bashrc file back again
 #sbashrc
-# FFMPEG installtion is not fonud if pkg-config is not installed
+# FFMPEG installtion is not fonud if pkg-config is not installed - for DIVA pipeline
 yes | apt-get install pkg-config
+#pylint also fails to be found and thus lets install it - Needed for open cv
+yes | apt-get install pylint
+#HDF5 is also not found during installtion
+yes | apt-get install hdf5-tools h5utils
