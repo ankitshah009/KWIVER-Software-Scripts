@@ -44,7 +44,7 @@ yes | apt-get install hdf5-tools h5utils
 #Open CV issues during installation - Official open cv page dependencies needed
 yes | apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
 yes | apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
-
+yes | apt-get install libgstreamer-plugins-base1.0-dev
 ########
 #Google test installation - Dependency for KWIVER installation DIVA - fails at KWANT step - potential fix
 ########
