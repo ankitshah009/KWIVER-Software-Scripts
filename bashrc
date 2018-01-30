@@ -98,3 +98,14 @@ fi
 #    . /etc/bash_completion
 #fi
 alias divarelease='cd /home/ankit/diva/build/release'
+alias divabuild='cd /home/ankit/diva/build/release/DIVA-build'
+alias f1='fg %1'
+alias f2='fg %2'
+alias f3='fg %3'
+alias f4='fg %4'
+alias f5='fg %5'
+alias f6='fg %6'
+alias jb='jobs'
+alias bashrc='vi ~/.bashrc'
+alias sbashrc='source ~/.bashrc'
+
