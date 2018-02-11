@@ -25,15 +25,16 @@ def create_video_experiment(input_list,template,output_dir):
 	for line in line_list:
 		line_new = []
 		line_split = line.rsplit('/',2)
-		root_path = line_split[0] + '/' +  line_split[1]
-		dataset_id = line_split[1] + '_' + line_split[2].strip()
+		root_path = line_split[0] + '/' +  line_split[1] + '/'
+		#dataset_id = line_split[1] + '_' + line_split[2].strip()
+		dataset_id = line_split[1] 
 		source = line_split[2].strip()
 		output_file = output_dir + '/' + source + '_video_experiment.yml'
 		for line in lines:
 			if 'root_dir' in line:
 				line_split = line.split('/')
 				if 'video' in line_split:
-					line = '   root_path = ' + root_path + '\n'
+					line = '   root_dir = ' + root_path + '\n'
 					line_new.append(line)
 				else:	
 					line_new.append(line)
