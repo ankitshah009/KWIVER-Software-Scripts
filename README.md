@@ -22,3 +22,8 @@ yes | apt install git vim
 
 git clone https://github.com/ankitshah009/KWIVER-Software-Scripts
 
+bash KWIVER-Software-Scripts/fletch_dependencies.sh
+
+bash KWIVER-Software-Scripts/download_install_diva.sh
+
+#### Now you should have Diva installed. 
