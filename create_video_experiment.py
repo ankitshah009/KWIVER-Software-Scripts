@@ -26,8 +26,8 @@ def create_video_experiment(input_list,template,output_dir):
 		line_new = []
 		line_split = line.rsplit('/',2)
 		root_path = line_split[0] + '/' +  line_split[1] + '/'
-		#dataset_id = line_split[1] + '_' + line_split[2].strip()
-		dataset_id = line_split[1] 
+		dataset_id = line_split[1] + '_' + line_split[2].strip()
+		#dataset_id = line_split[1] 
 		source = line_split[2].strip()
 		output_file = output_dir + '/' + source + '_video_experiment.yml'
 		for line in lines:
