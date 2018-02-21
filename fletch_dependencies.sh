@@ -6,3 +6,4 @@ yes | apt-get install liblapack-dev
 yes | apt-get install libxt-dev
 yes | apt-get install python2.7-dev
 yes | apt install cmake
+yes | python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
